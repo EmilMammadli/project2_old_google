@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+/*common properties*/
+
+body, header, main, .form, .links, .links > div, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body, main, header, section, footer, .subscribe{
+    width: 100%;
+}
+
+header > div, .left, .right{
+    width: 40%;
+}
+
+header > div, .links > div{
+    height: 100%;
+}
+
+body, main, .form, .links > div{
+    flex-direction: column;
+}
+
+.left, .right, footer{
+    font-size: 13px;
+}
+
+.search, .links > div{
+    text-align: center;
+}
+
+/*end*/
+
+body{
+    height: 100vh;
+    padding: 30px;
+}
+
+header{
+    height: 20%;
+}
+
+header > div{
+    background-image: url(./img/pngimg.com\ -\ google_PNG19625.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+main{
+    height: 40%;
+}
+
+section, footer{
+    height: 30%;
+}
+
+.search{
+    background-color: rgb(238,238,238);
+}
+
+.form{
+    width: 50%;
+}
+
+input[type="search"]{
+    width: 30%;
+}
+
+/*links section*/
+
+.links{
+    flex-direction: row;
+}
+
+.left{
+    background-color:rgb(126,229,218) ;
+}
+
+.middle{
+    width: 20%;
+    background-color: rgb(112,204,194);
+    margin: 0 1px;
+}
+
+.right{
+    background-color: rgb(98,179,170);
+}
+
+input[type="email"]{
+    width: 300px;
+}
+
+
